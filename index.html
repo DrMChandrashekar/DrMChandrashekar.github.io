@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dr. M. Chandrashekar Swami - Academic Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="print-header">
+    Dr. M. Chandrashekar Swami — Email: cmatham@gmail.com — Phone: +91 92474 76003
+  </header>
+
+  <div class="container">
+    <aside class="sidebar">
+      <img src="https://github.com/DrMChandrashekar/cmatham/blob/main/MCS%20PHOTO-2.jpg?raw=true"
+           alt="Dr. M. Chandrashekar Swami" class="profile-photo">
+      <h1>Dr. M. Chandrashekar Swami</h1>
+      <p>Professor of Practice | Defence R&D Expert | Innovation Mentor</p>
+      <nav>
+        <ul>
+          <li><a href="#summary">Summary</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#education">Education</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#awards">Awards</a></li>
+          <li><a href="#publications">Publications</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </aside>
+
+    <main class="content">
+      <section id="summary">
+        <h2>Professional Summary</h2>
+        <p>Distinguished academician with 36+ years of combined experience in defence R&D and higher education. 
+        Senior Manager (Ret.) at BDL, Professor, Dean (R&D), mentor to Ph.D. scholars, and recipient of national awards.</p>
+      </section>
+
+      <section id="experience">
+        <h2>Academic & Professional Experience</h2>
+        <ul>
+          <li>Dean (R&D), ISL Engineering College, Hyderabad (2022–2025)</li>
+          <li>Professor, Anurag University (2019–2021)</li>
+          <li>Senior Manager (Design & Engineering), BDL (1998–2019)</li>
+          <li>Faculty, Central University of Hyderabad (1997–1998)</li>
+        </ul>
+      </section>
+
+      <section id="education">
+        <h2>Education</h2>
+        <ul>
+          <li>Ph.D. in Electronics — Sri Krishnadevaraya University (2009)</li>
+          <li>M.Tech. in Instrumentation Technology — IISc Bangalore (1995)</li>
+          <li>M.Sc. (Tech.) Applied Electronics — Osmania University (1986)</li>
+        </ul>
+      </section>
+
+      <section id="projects">
+        <h2>🚀 Major Projects</h2>
+        <div class="gallery">
+          <div class="card" onclick="openModal('modal1')">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/f/f9/Missile_launcher.jpg">
+            <h3>FLTE</h3>
+            <p>Indigenous ATGM pre-launch system checker.</p>
+          </div>
+          <div class="card" onclick="openModal('modal2')">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/0/0d/Indian_Airforce_Sukhoi30.jpg">
+            <h3>CMDS</h3>
+            <p>Airborne defensive countermeasure system.</p>
+          </div>
+          <div class="card" onclick="openModal('modal3')">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/8/8a/FPGA.jpg">
+            <h3>FPGA Tracking</h3>
+            <p>Real-time IR target tracking on FPGA.</p>
+          </div>
+        </div>
+
+        <div class="cv-buttons">
+          <a href="https://github.com/DrMChandrashekar/cmatham/raw/main/BITS%20RESUME.pdf" target="_blank">
+            📄 Download Full Portfolio (PDF)
+          </a>
+          <button onclick="printCV()">🖨️ Print This Page as CV</button>
+        </div>
+      </section>
+
+      <section id="awards">
+        <h2>Awards & Recognition</h2>
+        <ul>
+          <li>Raksha Mantri’s Award for Excellence (2002–03)</li>
+          <li>National Defence Innovation Excellence Awards (2005, 2007)</li>
+          <li>Best Research Paper Awards (x2)</li>
+        </ul>
+      </section>
+
+      <section id="publications">
+        <h2>Publications</h2>
+        <table class="pub-table">
+          <thead>
+            <tr><th>Year</th><th>Title</th><th>Venue</th><th>Link</th></tr>
+          </thead>
+          <tbody>
+            <tr><td>2024</td><td>High-Speed Infrared Object Tracking</td><td>IJIRT Vol.11(4)</td>
+                <td><a href="https://ijirt.org/article?manuscript=167729">Read</a></td></tr>
+            <tr><td>2023</td><td>Design of Low-Power VLSI</td><td>IEEE TVLSI</td><td>doi.org/10.1109/TVLSI.2023…</td></tr>
+            <tr><td>2022</td><td>Microwave Antenna Array</td><td>IEEE AP Conf.</td><td>doi.org/10.1109/AP2022…</td></tr>
+          </tbody>
+        </table>
+        <p>Full list available on <a href="https://scholar.google.com/citations?user=U2MN8PYAAAAJ&hl=en" target="_blank">Google Scholar</a>.</p>
+      </section>
+
+      <section id="contact">
+        <h2>Contact</h2>
+        <p>Email: <a href="mailto:cmatham@gmail.com">cmatham@gmail.com</a></p>
+        <p>Mobile: +91 92474 76003</p>
+        <p>LinkedIn: <a href="https://www.linkedin.com/in/prof-chandrashaker/">Profile</a></p>
+      </section>
+    </main>
+  </div>
+
+  <footer class="print-footer">
+    Page <span class="pageNumber"></span> of <span class="totalPages"></span>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
